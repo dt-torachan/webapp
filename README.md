@@ -7,7 +7,7 @@ require(/var/www/html/public/../vendor/autoload.php): failed to open stream: No 
 
 step 1.
 
-Run following command in app container
+Run following command /var/www/html in app container
 
 $ composer install
 
@@ -17,8 +17,8 @@ No application encryption key has been specified.
 
 step 2.
 
-Run following command in app container
+Run following command /var/www/html in app container
 
-$ cp .env example .env
+$ cp .env.example .env
 
 $ php artisan key:generate
